@@ -12,8 +12,8 @@ nav a {
     padding: 8px 15px 8px 15px;
 }
 
-nav a .active {
-    color: #5DBCD2;
+#selected {
+    color: #FFFFFF;
 }
 
 nav a:hover {
