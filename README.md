@@ -1,6 +1,8 @@
 # MSW-Website
 This is what I want the [Home Page](https://imgur.com/5A1XHB2) to look like.
+
 This is what I want the [Product Page](https://imgur.com/OSPIcps) to look like.
+
 This is what I want the [Checkout Page](https://imgur.com/vNLbEMn) to look like.
 
 This repo is for my college work on Unit 14. For Unit 14 I needed to create a website for the company MSW (Mark Special Woods) taking into account the purpose, target audience (everyone that wants a phone case), target devices (mobiles, laptops, tablets, desktops etc..) & how they will accommodate (Bootsrap, AnjularJS etc..), Key messages & USP (Unique Selling Proposition), sitemap (key pages & their relationship), overall navigation (tables, links, menus & dropdowns), visual styles (font, font sizes, colours, background & images).
