@@ -8,8 +8,9 @@ nav a {
     color: #3F3C3C;
     text-decoration: none;
     font-size: 22px;
+    font-family: arial;
     background-color: #BEBFBE;
-    padding: 8px 15px 8px 15px;
+    padding: 8px 10px 8px 10px;
 }
 
 #selected {
@@ -25,14 +26,16 @@ nav a:hover {
     color: white;
 }
 
-#FTR a {
-    padding-left: 15px;
+#FTR .FNav {
+    font-size: 14px;
+    padding: 0px 0px 0px 15px;
 }
 
 #FTR {
     margin: 0px;
     padding: 10px 0px 20px 10px;
-    background-color: #BEBFBE;
+    background-color: #838383;
+    margin: 0px
 }
 
 #HLogo {
@@ -52,11 +55,22 @@ nav a:hover {
     z-index: 1;
 }
 
+#TopC {
+    height: 300px;
+    width: 500px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+
+#BIMG {
+    width: 100%;
+    height: 400px;
+}
+
 #Cart {
-    float: right;
     width: 50px;
     height: 50px;
-    margin: 45px 15px 0px 0px;
+    margin: 25px 0px 0px 105px;
 }
 
 .ACS {
@@ -65,17 +79,32 @@ nav a:hover {
     padding: 0px
 }
 
+.ACS a {
+    font-size: 14px;
+}
+
 a {
     text-decoration: none;
     color: #3F3C3C;
+    font-family: arial;
 }
 
 body {
     margin: 0px;
 }
 
+footer .FNav {
+    float: right;
+}
+
+footer {
+    color: #3F3C3C;
+    font-family: arial;
+    font-size: 14px;
+}
+
 footer a {
-    float: right; 
+    font-size: 14px;
 }
 
 #HNav {
