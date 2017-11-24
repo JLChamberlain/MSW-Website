@@ -22,6 +22,15 @@ nav a:hover {
     background-color: #838383;
 }
 
+.HCCase { 
+    display: inline-block;
+    max-width: 100%;
+}
+
+#HCCaseTxt {
+    background-color: #969796;
+}
+
 #FTR a:hover {
     color: white;
 }
@@ -62,9 +71,27 @@ nav a:hover {
     padding: 0px;
 }
 
-#BIMG {
+#HomeC {
     width: 100%;
-    height: 400px;
+    background-image: url("Img/BIMG.png");
+    background-position: right top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.HC1 {
+    Width: 280px;
+    height: 280px;
+    margin: 0px 0px 10px 45px;
+    padding-top: 25px;
+}
+
+.HC2 {
+    width: 350px;
+    height: 280px;
+    margin: 0px 0px 0px 75px;
+    padding-bottom: 25px;
 }
 
 #Cart {
