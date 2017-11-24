@@ -18,21 +18,29 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color: #ffffff;
     background-color: #838383;
 }
 
-.HCCase { 
+.HCCase {
     display: inline-block;
     max-width: 100%;
 }
 
 #HCCaseTxt {
-    background-color: #969796;
+    width: 600px;
+    margin: 50px 0px 0px 20px;
+    padding: 5px;
+    vertical-align: top;
+}
+
+#C2CM {
+    color: #0DD587;
+    font-family: arial;
 }
 
 #FTR a:hover {
-    color: white;
+    color: #ffffff;
 }
 
 #FTR .FNav {
@@ -67,7 +75,7 @@ nav a:hover {
 #TopC {
     height: 300px;
     width: 500px;
-    margin: 10px 0px 0px 0px;
+    margin: 25px 0px 35px 25px;
     padding: 0px;
 }
 
@@ -78,7 +86,6 @@ nav a:hover {
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-
 
 .HC1 {
     Width: 280px;
