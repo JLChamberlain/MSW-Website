@@ -19,7 +19,7 @@ nav a {
 
 nav a:hover {
     color: #ffffff;
-    background-color: #838383;
+    background-color: #0DD587;
 }
 
 .HCCase {
@@ -117,7 +117,9 @@ nav a:hover {
     font-size: 14px;
 }
 
-a {
+a,
+p,
+b {
     text-decoration: none;
     color: #3F3C3C;
     font-family: arial;
@@ -137,10 +139,88 @@ footer {
     font-size: 14px;
 }
 
-footer a {
-    font-size: 14px;
-}
-
 #HNav {
     margin: 0px 15px 0px 0px;
+}
+
+#VID {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    background-color: #0DD587;
+    margin: 0px;
+}
+
+#VIDTxt {
+    margin-top: 0px;
+    padding-top: 10px;
+    background-color: #BEBFBE;
+    text-align: center;
+    width: 100%;
+}
+
+#VIDTxt p {
+    margin: auto;
+    width: 75%;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+#VIDTxt B {
+    font-size: 28px;
+    font-family: Bell MT;
+}
+
+iframe {
+    margin: 10px 0px 7px 0px;
+}
+
+.PSUC {
+    text-align: center;
+    font-size: 120px;
+    color: #0DD587;
+    font-family: Arial;
+}
+
+.SCL {
+    width: 85px;
+    height: 85px;
+    margin: 45px 35px 45px 0px;
+}
+
+.SCon {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.SCon p {
+    font-size: 28px;
+    font-family: Bell MT;
+    margin: 75px 15px 0px 0px;
+    justify-content: center;
+}
+
+.RView {
+    width: 100%;
+    background-color: #BEBFBE;
+    justify-content: center;
+    display: flex;
+}
+
+.RView div {
+    display: flex;
+    width: 100%;
+}
+
+.RView p {
+    margin: 20px 0px 0px 20px;
+    justify-content: center;
+}
+
+.ReVW {
+    display: inherit;
+    width: 105px;
+    height: 100px;
+    margin: 20px 0px 20px 80px;
 }
