@@ -205,15 +205,14 @@ iframe {
 .RView {
     width: 100%;
     background-color: #BEBFBE;
-    display: flex;   
-
+    display: flex;
 }
 
 .RView img {
- margin-top: 35px;
- margin-right: 10px;
- width: 100px;
- height: 100px;
+    margin-top: 35px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
 }
 
 .RView div {
@@ -223,11 +222,11 @@ iframe {
 
 .RView p {
     margin: 0px;
-  display: inline-block;
-  width: 50%;
+    display: inline-block;
+    width: 50%;
 }
 
 .ReVW {
-   width: 50%;
+    width: 50%;
     margin: 0;
 }
