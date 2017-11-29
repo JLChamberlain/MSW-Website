@@ -183,6 +183,7 @@ iframe {
 }
 
 .SCL {
+    flex: 1;
     width: 85px;
     height: 85px;
     margin: 45px 35px 45px 0px;
@@ -204,23 +205,29 @@ iframe {
 .RView {
     width: 100%;
     background-color: #BEBFBE;
-    justify-content: center;
-    display: flex;
+    display: flex;   
+
+}
+
+.RView img {
+ margin-top: 35px;
+ margin-right: 10px;
+ width: 100px;
+ height: 100px;
 }
 
 .RView div {
-    display: flex;
-    width: 100%;
+    flex: 1;
+    padding-bottom: 30px;
 }
 
 .RView p {
-    margin: 20px 0px 0px 20px;
-    justify-content: center;
+    margin: 0px;
+  display: inline-block;
+  width: 50%;
 }
 
 .ReVW {
-    display: inherit;
-    width: 105px;
-    height: 100px;
-    margin: 20px 0px 20px 80px;
+   width: 50%;
+    margin: 0;
 }
