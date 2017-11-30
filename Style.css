@@ -1,248 +1,250 @@
-nav {
-    background-color: #BEBFBE;
-    margin: 0px;
-    padding: 8px 0px 8px 0px;
-}
+    nav {
+        background-color: #BEBFBE;
+        margin: 0px;
+        padding: 8px 0px 8px 0px;
+    }
 
-nav a {
-    color: #3F3C3C;
-    text-decoration: none;
-    font-size: 22px;
-    font-family: arial;
-    background-color: #BEBFBE;
-    padding: 8px 10px 8px 10px;
-}
+    nav a {
+        color: #3F3C3C;
+        text-decoration: none;
+        font-size: 22px;
+        font-family: arial;
+        background-color: #BEBFBE;
+        padding: 8px 10px 8px 10px;
+    }
 
-#selected {
-    color: #FFFFFF;
-}
+    #selected {
+        color: #FFFFFF;
+    }
 
-nav a:hover {
-    color: #ffffff;
-    background-color: #0DD587;
-}
+    nav a:hover {
+        color: #ffffff;
+        background-color: #0DD587;
+    }
 
-.HCCase {
-    display: inline-block;
-    max-width: 100%;
-}
+    .HCCase {
+        display: inline-block;
+        max-width: 100%;
+    }
 
-#HCCaseTxt {
-    width: 600px;
-    margin: 50px 0px 0px 20px;
-    padding: 5px;
-    vertical-align: top;
-}
+    #HCCaseTxt {
+        width: 600px;
+        margin: 50px 0px 0px 20px;
+        padding: 5px;
+        vertical-align: top;
+    }
 
-#C2CM {
-    color: #0DD587;
-    font-family: arial;
-}
+    #C2CM {
+        color: #0DD587;
+        font-family: arial;
+    }
 
-#FTR a:hover {
-    color: #ffffff;
-}
+    #FTR a:hover {
+        color: #ffffff;
+    }
 
-#FTR .FNav {
-    font-size: 14px;
-    padding: 0px 0px 0px 15px;
-}
+    #FTR .FNav {
+        font-size: 14px;
+        padding: 0px 0px 0px 15px;
+    }
 
-#FTR {
-    margin: 0px;
-    padding: 10px 0px 20px 10px;
-    background-color: #838383;
-    margin: 0px
-}
+    #FTR {
+        margin: 0px;
+        padding: 10px 0px 20px 10px;
+        background-color: #838383;
+        margin: 0px
+    }
 
-#HLogo {
-    height: 90px;
-    width: 90px;
-    margin: 8px 0px 8px 15px;
-    position: relative;
-    z-index: 2;
-}
+    #HLogo {
+        height: 90px;
+        width: 90px;
+        margin: 8px 0px 8px 15px;
+        position: relative;
+        z-index: 2;
+    }
 
-#HRBG {
-    width: 550px;
-    height: 111px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
+    #HRBG {
+        width: 550px;
+        height: 111px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
 
-#TopC {
-    height: 300px;
-    width: 500px;
-    margin: 25px 0px 35px 25px;
-    padding: 0px;
-}
+    #TopC {
+        height: 300px;
+        width: 500px;
+        margin: 25px 0px 35px 25px;
+        padding: 0px;
+    }
 
-#HomeC {
-    width: 100%;
-    background-image: url("Img/BIMG.png");
-    background-position: right top;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
+    #HomeC {
+        width: 100%;
+        background-image: url("Img/BIMG.png");
+        background-position: right top;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
 
-.HC1 {
-    Width: 280px;
-    height: 280px;
-    margin: 0px 0px 10px 45px;
-    padding-top: 25px;
-}
+    .HC1 {
+        Width: 280px;
+        height: 280px;
+        margin: 0px 0px 10px 45px;
+        padding-top: 25px;
+    }
 
-.HC2 {
-    width: 350px;
-    height: 280px;
-    margin: 0px 0px 0px 75px;
-    padding-bottom: 25px;
-}
+    .HC2 {
+        width: 350px;
+        height: 280px;
+        margin: 0px 0px 0px 75px;
+        padding-bottom: 25px;
+    }
 
-#Cart {
-    width: 50px;
-    height: 50px;
-    margin: 25px 0px 0px 105px;
-}
+    #Cart {
+        width: 50px;
+        height: 50px;
+        margin: 25px 0px 0px 105px;
+    }
 
-.ACS {
-    float: right;
-    margin: 5px 15px 0px 0px;
-    padding: 0px
-}
+    .ACS {
+        float: right;
+        margin: 5px 15px 0px 0px;
+        padding: 0px
+    }
 
-.ACS a {
-    font-size: 14px;
-}
+    .ACS a {
+        font-size: 14px;
+    }
 
-a,
-p,
-b {
-    text-decoration: none;
-    color: #3F3C3C;
-    font-family: arial;
-}
+    a,
+    p,
+    b {
+        text-decoration: none;
+        color: #3F3C3C;
+        font-family: arial;
+    }
 
-body {
-    margin: 0px;
-}
+    body {
+        margin: 0px;
+    }
 
-footer .FNav {
-    float: right;
-}
+    footer .FNav {
+        float: right;
+    }
 
-footer {
-    color: #3F3C3C;
-    font-family: arial;
-    font-size: 14px;
-}
+    footer {
+        color: #3F3C3C;
+        font-family: arial;
+        font-size: 14px;
+    }
 
-#HNav {
-    margin: 0px 15px 0px 0px;
-}
+    #HNav {
+        margin: 0px 15px 0px 0px;
+    }
 
-#VID {
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    background-color: #0DD587;
-    margin: 0px;
-}
+    #VID {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        background-color: #0DD587;
+        margin: 0px;
+    }
 
-#VIDTxt {
-    margin-top: 0px;
-    padding-top: 10px;
-    background-color: #BEBFBE;
-    text-align: center;
-    width: 100%;
-}
+    #VIDTxt {
+        margin-top: 0px;
+        padding-top: 10px;
+        background-color: #BEBFBE;
+        text-align: center;
+        width: 100%;
+    }
 
-#VIDTxt p {
-    margin: auto;
-    width: 75%;
-    font-size: 16px;
-    padding-bottom: 20px;
-}
+    #VIDTxt p {
+        margin: auto;
+        width: 75%;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
 
-#VIDTxt B {
-    font-size: 28px;
-    font-family: Bell MT;
-}
+    #VIDTxt B {
+        font-size: 28px;
+        font-family: Bell MT;
+    }
 
-iframe {
-    margin: 10px 0px 7px 0px;
-}
+    iframe {
+        margin: 10px 0px 7px 0px;
+    }
 
-.PSUC {
-    text-align: center;
-    font-size: 120px;
-    color: #0DD587;
-    font-family: Arial;
-    margin: 300px 0px 300px;
-}
+    .PSUC {
+        text-align: center;
+        font-size: 120px;
+        color: #0DD587;
+        font-family: Arial;
+        margin: 300px 0px 300px;
+    }
 
-.SCL {
-    flex: 1;
-    width: 85px;
-    height: 85px;
-    margin: 45px 35px 45px 0px;
-}
+    .SCL {
+        flex: 1;
+        width: 85px;
+        height: 85px;
+        margin: 45px 35px 45px 0px;
+    }
 
-.SCon {
-    width: 100%;
-    justify-content: center;
-    display: flex;
-}
+    .SCon {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
 
-.SCon p {
-    font-size: 28px;
-    font-family: Bell MT;
-    margin: 75px 15px 0px 0px;
-    justify-content: center;
-}
+    .SCon p {
+        font-size: 28px;
+        font-family: Bell MT;
+        margin: 75px 15px 0px 0px;
+        justify-content: center;
+    }
 
-.RView {
-    width: 100%;
-    background-color: #BEBFBE;
-    display: flex;
-}
+    .RView {
+        width: 100%;
+        background-color: #BEBFBE;
+        display: flex;
+    }
 
-.RView img {
-    margin-top: 35px;
-    margin-right: 10px;
-    width: 100px;
-    height: 100px;
-}
+    .RView img {
+        margin-top: 35px;
+        margin-right: 10px;
+        width: 100px;
+        height: 100px;
+    }
 
-.RView div {
-    flex: 1;
-    padding-bottom: 30px;
-}
+    .RView div {
+        flex: 1;
+        padding-bottom: 30px;
+    }
 
-.RView p {
-    margin: 0px;
-    display: inline-block;
-    width: 50%;
-}
+    .RView p {
+        margin: 0px;
+        display: inline-block;
+        width: 50%;
+    }
 
-.ReVW {
-    width: 50%;
-    margin: 0;
-}
+    .ReVW {
+        width: 50%;
+        margin: 0;
+    }
 
-#PRDCT {
-    margin: 20px 0px 20px 0px;
-}
+    #PRDCT {
+        margin: 20px 0px 20px 0px;
+    }
 
-.Prod:hover {
-    border-color: #838383;
-}
 
-.Prod {
-    width: 200px;
-    height: 200px;
-    padding: 50px;
-    margin: 10px;
-    border: 5px solid #0DD587;
+    .Prod:hover {
+        border-color: #838383;
+    }
+
+    .Prod {
+        width: 200px;
+        height: 200px;
+        padding: 50px;
+        margin: 10px;
+        border: 5px solid #0DD587;
+    }
