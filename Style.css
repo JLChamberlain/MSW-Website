@@ -39,6 +39,10 @@
         font-family: arial;
     }
 
+    #C2CM:Hover {
+        color: rgb(0, 0, 0);
+    }
+
     #FTR a:hover {
         color: #ffffff;
     }
@@ -110,8 +114,7 @@
     .MDL {
         width: 100px;
         Height: 55px;
-        display: inline;
-        margin: 0px 0px 0px 40px;
+        margin: 0px 0px 10px 20px;
     }
 
     .PMDL {
@@ -239,18 +242,18 @@
     }
 
     .RView p {
-        margin: 0px;
+        margin: auto;
         display: inline-block;
         width: 50%;
     }
 
     .ReVW {
-        width: 50%;
-        margin: 0;
+        width: 100px;
+        margin: auto;
     }
 
     #PRDCT {
-        margin: 20px 0px 20px 0px;
+        margin: 20px 0px 20px 10px;
     }
 
     .Prod:hover {
@@ -263,4 +266,27 @@
         padding: 50px;
         margin: 10px;
         border: 5px solid #0DD587;
+    }
+
+    #MSWAbPag {
+        width: 200px;
+        height: 200px;
+        padding: 30px;
+        display: block;
+        margin: 50px auto;
+        border: 5px solid #0DD587
+    }
+
+    #AbTXT {
+        margin: 0px 40px 40px 40px;
+    }
+
+    #gmap_canvas {
+        height: 409px;
+        width: 668px
+    }
+
+    #gmap_canvas img {
+        max-width: none!important;
+        background: none!important
     }

@@ -10,7 +10,6 @@
   <link rel="icon" href="Img/Logo.png" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="Style.css">
-  <script src="Script.js"></script>
 </head>
 
 <body>
@@ -38,7 +37,61 @@
     <a href="Contact.html">Contact Us</a>
   </nav>
 
-  <p class="PSUC">Page Still Under Construction</p>
+  <img src="Img/Logo.png" id="MSWAbPag">
+  <div id="AbTXT">
+    <p>
+      <b>Who is MWS?:</b> MSW (Mark Shell Woods) will be your new best friend and your number one resource for your mobile case
+      needs.
+    </p>
+    <p>
+      <b>What is our goal?</b> Our goal is to give you (the customer) the best mobile case possible for a reasonable price.
+      We all want to protect our phones so having a case for it only makes sense but you obviously dont want to be spending
+      crazy amounts of money. This is where MWS comes in, we will give you the phone case of your dreams for any model with
+      a wide varriety of designs, if you don't like any of them then you can make your own design & we will make it for you
+      (cool right?).</p>
+    <P>
+      <b>How Do We make our cases?</b> There is a video link on the front page showing how we make our phone cases. If you want
+      to see it right now
+      <a href="https://youtu.be/oNScirdZDTo" style="color: #0DD587">Click here</a> & see the process of how we create our lovely cases. Also for anyone that is blind don't worry the video
+      has subtitles & there is text below the video talking about in detail if you are unable to watch the video.</P>
+    <p>
+      <b>How is our target audience?</b> Everyone is our target audience. Here at MWS we aim to make our products & services
+      available to anyone & everyone</p>
+    <p>
+      <b>Where are we based?</b> Where are based in Dartford, postcode DA1 5JT. The established business is located in a converted
+      barn (offices) and a converted cattle shed (stores and production). There are 2 telephone lines into the office. MSW
+      offices are in the top floor of a converted machinery shed. Their CNC equipment is on the ground floor.
+    </p>
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key= AIzaSyAUuY0BzVTn-PvZptwSc_Rmt4-gVxfDKl4 '></script>
+    <div style='overflow:hidden;height:409px;width:668px;'>
+      <div id='gmap_canvas></div>
+    </div >
+    <a href='https://mapswebsite.net/'>google maps on my website</a>
+    <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=6bd221353728101923830dce11c4329b714252da'></script>
+    <script type='text/javascript'>
+      function init_map() {
+        var myOptions = {
+          zoom: 17,
+          center: new google.maps.LatLng(51.44621, 0.21687199999996665),
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+        marker = new google.maps.Marker({
+          map: map,
+          position: new google.maps.LatLng(51.44621, 0.21687199999996665)
+        });
+        infowindow = new google.maps.InfoWindow({
+          content: '<strong>MWS (Mark Woods Shell)</strong><br><br>DA1 5JT Dartford<br>'
+        });
+        google.maps.event.addListener(marker, 'click', function () {
+          infowindow.open(map, marker);
+        });
+        infowindow.open(map, marker);
+      }
+      google.maps.event.addDomListener(window, 'load', init_map);
+    </script>
+
+  </div>
 
   <div id="FTR">
     <footer> Copyright © 2017 MWS, Inc.
