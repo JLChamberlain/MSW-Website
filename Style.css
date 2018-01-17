@@ -280,13 +280,3 @@
     #AbTXT {
         margin: 0px 40px 40px 40px;
     }
-
-    #gmap_canvas {
-        height: 409px;
-        width: 668px
-    }
-
-    #gmap_canvas img {
-        max-width: none!important;
-        background: none!important
-    }
