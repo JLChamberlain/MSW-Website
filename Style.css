@@ -280,3 +280,28 @@
     #AbTXT {
         margin: 0px 40px 40px 40px;
     }
+
+    .Staff {
+        width: 170px;
+        height: 170px;
+        display: block;
+        margin: 45px 0px 25px 75px;
+        border: 6px solid #0DD587;
+    }
+
+    .CPI {
+        width: 400px;
+        height: 320px;
+        border: 3px solid #0DD587;
+        margin: 30px;
+    }
+
+    .CPITXT {
+        margin: 50px 40px 0px 470px;
+    }
+
+    #CPIC {
+        width: 50px;
+        height: 50px;
+        margin: 0px 0px 30px 0px;
+    }
