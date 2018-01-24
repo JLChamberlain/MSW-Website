@@ -305,3 +305,8 @@
         height: 50px;
         margin: 0px 0px 30px 0px;
     }
+
+    #ConTXT {
+        margin: auto;
+        width: 80%;
+    }
