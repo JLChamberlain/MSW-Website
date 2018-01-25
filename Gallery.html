@@ -10,7 +10,8 @@
   <link rel="icon" href="Img/Logo.png" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="Style.css">
-  <script src="Script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -38,7 +39,102 @@
     <a href="Contact.html">Contact Us</a>
   </nav>
 
-  <p class="PSUC">Gallery Under Construction</p>
+  <script>
+    $(document).ready(function () {
+      debugger;
+
+      var height = $("#sliderImages").height();
+      var width = $("#sliderImages").width(); // Here you can make it 90% by just computing a width
+
+      $("#sliderImages img").css({
+        height: height,
+        width: width
+      });
+    });
+  </script>
+
+  <div class="GalleryTXT">
+    <b id="GWelcome">Welcome to the MWS Gallery</b>
+    <br>
+    <br>
+    <b>Have a look out what our customers have said & their custom cases orders we have created for them.</b>
+  </div>
+
+  <div id="cssSlider">
+    <div id="sliderImages">
+      <img src="Img/Cases/C10.png" alt="" />
+      <img src="Img/Cases/C13.png" alt="" />
+      <img src="http://f.cybrox.eu/codepen/slider/slide3.jpg" alt="" />
+      <img src="http://f.cybrox.eu/codepen/slider/slide4.jpg" alt="" />
+      <img src="Img/Cases/C12.png" alt="" />
+      <div style="clear:left;"></div>
+    </div>
+  </div>
+
+  <div class="GalleryTXT">
+    <p>
+      <b>"Ordered this case just the other day & it arrived the very next day in perfect condition. The case is absolute beautiful
+        & just makes the phone look even better which I thought wasn't even possible!, the lovely dark case helps emphasise
+        the phones design. The case is not slippery at all & I have yet to get any marks/ damage onto it" (★★★★★)</b> - Hellen
+      View (Google Pixel)</p>
+    <br>
+
+    <p>
+      <b>"Ordered this case just the other day & it arrived the very next day in perfect condition. The case is absolute beautiful
+        & just makes the phone look even better which I thought wasn't even possible!, the lovely dark case helps emphasise
+        the phones design. The case is not slippery at all & I have yet to get any marks/ damage onto it" (★★★★★)</b> - Jordan
+      Kean (iPhone X)</p>
+    <br>
+
+    <p>
+      <b>"Ordered this case just the other day & it arrived the very next day in perfect condition. The case is absolute beautiful
+        & just makes the phone look even better which I thought wasn't even possible!, the lovely dark case helps emphasise
+        the phones design. The case is not slippery at all & I have yet to get any marks/ damage onto it" (★★★★★)</b> - Nuur
+      Hassan (Samsung S8)</p>
+  </div>
+
+  <div id="cssSlider">
+    <div id="sliderImages">
+      <img src="http://f.cybrox.eu/codepen/slider/slide4.jpg" alt="" />
+      <img src="http://f.cybrox.eu/codepen/slider/slide2.jpg" alt="" />
+      <img src="http://f.cybrox.eu/codepen/slider/slide3.jpg" alt="" />
+      <img src="http://f.cybrox.eu/codepen/slider/slide4.jpg" alt="" />
+      <img src="http://f.cybrox.eu/codepen/slider/slide5.jpg" alt="" />
+      <div style="clear:left;"></div>
+    </div>
+  </div>
+
+  <div class="GalleryTXT">
+    <p>
+      <b>"The MWS Bench case fits my new phone perfectly & is just gorgeous!, the wood has such a natural look to it but doesn't
+        have that rough texture you get from natural wood, just lovely, very pleased with my purchase from MWS, will be coming
+        back for more cases in the future. The website is also very easy to manage & just looks great, well done." (★★★★★)</b>
+      - Shiva Sivanesan (iPhone 8)</p>
+    <br>
+    <p>
+      <b>"This is my second purchase from MWS & it's just as good as my first purchase with the company. The case just looks
+        amazing & fits the phone perfectly down to the smallest detail. The case feels very protective but doesn't feel like
+        it could easily get damaged, very happy with purchase." (★★★★★)</b> - Shiva Sivanesan (iPhone 8)</p>
+  </div>
+
+  <div id="cssSlider">
+    <div id="sliderImages">
+      <img src="http://f.cybrox.eu/codepen/slider/slide1.jpg" alt="" />
+      <img src="http://f.cybrox.eu/codepen/slider/slide2.jpg" alt="" />
+      <img src="http://f.cybrox.eu/codepen/slider/slide3.jpg" alt="" />
+      <img src="http://f.cybrox.eu/codepen/slider/slide4.jpg" alt="" />
+      <img src="http://f.cybrox.eu/codepen/slider/slide5.jpg" alt="" />
+      <div style="clear:left;"></div>
+    </div>
+  </div>
+
+  <div class="GalleryTXT">
+    <b style="color:#0DD587;">If you are interested in seeing more of our cases
+      <a href="Shop.html"> [Click Here]</a>
+    </b>
+  </div>
+  <br>
+  <br>
 
   <div id="FTR">
     <footer> Copyright © 2018 MWS, Inc.
