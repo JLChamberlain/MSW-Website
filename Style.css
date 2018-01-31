@@ -253,7 +253,9 @@
     }
 
     #PRDCT {
-        margin: 20px 0px 20px 10px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .Prod:hover {
@@ -303,7 +305,7 @@
     #CPIC {
         width: 50px;
         height: 50px;
-        margin: 0px 0px 30px 0px;
+        margin: 0px 0px 30px 20px;
     }
 
     #ConTXT {
